@@ -1,1 +1,1 @@
-# Basic - Gaul tidak berlele pecel lele
+# Basic - Gaul tidak berlele pecel lele :white_check_mark:
