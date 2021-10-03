@@ -18,7 +18,7 @@ class Person(
     constructor(firstNameParam: String, middleNameParam: String?) :
     // Wajib memanggil primary constructor jika ada
             this(firstNameParam, middleNameParam, null, 2021) {
-                println("Secondary Constructor")
+        println("Secondary Constructor")
     }
 
     constructor(firstNameParam: String) : this(firstNameParam, "") {

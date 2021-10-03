@@ -11,10 +11,11 @@ class Address {
         street = streetNameParam
         city = cityNameParam
     }
+
     // Constructor Tanpa Primary Constructor
     constructor(streetNameParam: String, cityNameParam: String, countryNameParam: String) :
             this(streetNameParam, cityNameParam) {
-                country = countryNameParam
+        country = countryNameParam
     }
 
 }
