@@ -1,6 +1,6 @@
 package oop.`object`.`class`
 
-class Boss(val nameBoss: String ) {
+class Boss(val nameBoss: String) {
 
     // dengan inner kita bisa mengakses atribute yang ada di boss
     inner class Employee(val name: String) {
