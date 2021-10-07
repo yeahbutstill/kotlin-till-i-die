@@ -15,12 +15,16 @@ package ini.generic.data
  * V - Value
  * S,U,V etc - 2nd, 3rd, 4th types
  */
-class MyData<T>(val dataPertama: T) {
+class MyData<T, U>(private val dataPertama: T, private val secondData: U) {
     fun printData() {
-        return println("Data is $dataPertama")
+        return println("Data is $dataPertama $secondData")
     }
 
     fun getData(): T {
         return dataPertama
+    }
+
+    fun getDataSecond(): U {
+        return secondData
     }
 }
