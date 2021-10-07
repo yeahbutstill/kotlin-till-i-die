@@ -11,4 +11,5 @@ class VicePresident2 : Employee2(), CanSayHello {
         println("Hello $name")
     }
 }
+
 class Company2<T>(val employee2: T) where T : Employee2, T : CanSayHello
