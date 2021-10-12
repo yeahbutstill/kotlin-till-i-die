@@ -13,7 +13,7 @@ fun main() {
     }
     println(map.size)
 
-    for ((key, value ) in map) {
+    for ((key, value) in map) {
         println("$key to $value")
     }
 }
