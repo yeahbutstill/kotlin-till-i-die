@@ -19,8 +19,7 @@ fun main() {
     println(set2)
 
     val namaes = listOf("Dani", "Setiawan", "Gandes", "Salindri", "aaaaaa i love u somuch")
-    val namesGanjil = namaes.mapIndexedNotNull {
-        index, name ->
+    val namesGanjil = namaes.mapIndexedNotNull { index, name ->
         if (index % 2 == 0) null
         else name
     }
