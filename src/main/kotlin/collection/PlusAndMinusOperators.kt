@@ -14,7 +14,7 @@ fun main() {
     val list4 = list2 - listOf("Engineer", "Programmer", "UI")
     println(list4)
 
-    val map1 = mapOf("a"  to "Dani", "b" to "Gandes")
+    val map1 = mapOf("a" to "Dani", "b" to "Gandes")
     val map2 = map1 + Pair("c", "Setiawan")
     println(map2)
 

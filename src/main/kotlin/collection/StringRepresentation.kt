@@ -2,7 +2,7 @@ package collection
 
 fun main() {
     val list: List<String> = listOf("Dani", "Setiawan", "Gandes", "Salindri")
-    
+
     val string: String = list.joinToString(" ", "|", "|")
     println(string)
 
