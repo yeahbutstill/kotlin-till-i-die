@@ -5,8 +5,7 @@ fun main() {
     val list1 = range.chunked(10)
     println(list1.size)
     println(list1)
-    val list2 = range.chunked(10) {
-        list: List<Int> ->
+    val list2 = range.chunked(10) { list: List<Int> ->
         var total = 0
         for (number in list) {
             total += number
